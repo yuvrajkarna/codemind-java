@@ -1,11 +1,11 @@
 import java.util.*;
-class ss{
+class ass{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         for(int i=1;i<=n;i++){
-            for(int j=n;j>0;j--){
-                System.out.printf(j+" ");
+            for(int j=1;j<=i;j++){
+                System.out.printf(j+"");
             }
             System.out.println();
         }
